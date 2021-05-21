@@ -11,7 +11,7 @@
     "forin": true,
     "import-blacklist": [true, "lodash-es"],
     "indent": [true, "spaces"],
-    "interface-name": [true, "never-prefix"],
+    "interface-name": [true, "always-prefix"],
     "jsdoc-format": true,
     "jsx-boolean-value": [true, "never"],
     "jsx-no-lambda": false,

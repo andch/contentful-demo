@@ -20,7 +20,7 @@ export default Header
 
 const HeaderWrapper = styled.div`
   background: rebeccapurple;
-  margin-bottom: '1.45rem';
+  margin-bottom: 1.45rem;
 `
 const HeaderContainer = styled.div`
   margin: 0 auto;

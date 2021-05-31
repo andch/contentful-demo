@@ -1,6 +1,4 @@
-import React, { Component } from 'react'
-import { Link } from 'gatsby'
-import { css } from 'emotion'
+import React from 'react'
 import Persons from '../components/Persons'
 import { graphql } from 'gatsby'
 
@@ -10,7 +8,7 @@ import { IPersons } from '../interface'
 const IndexPage = ({ data }: IPersons) => {
   return (
     <Layout>
-      <h2>List of persons</h2>
+      <h2 className="text-3xl font-bold	mb-4">List of persons</h2>
       <Persons data={data} />
     </Layout>
   )

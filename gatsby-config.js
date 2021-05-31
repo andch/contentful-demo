@@ -29,6 +29,7 @@ module.exports = {
     `gatsby-plugin-typescript`,
     'gatsby-transformer-remark',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-postcss',
     {
       resolve: `gatsby-source-contentful`,
       options: contentfulConfig,

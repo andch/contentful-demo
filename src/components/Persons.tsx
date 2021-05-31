@@ -13,7 +13,12 @@ const Persions = ({ data }: IPersons) => {
       {dataPersions.map((persion) => {
         return (
           <div key={persion.slug}>
-            <Link to={`/person/${persion.slug}`}>{persion.name}</Link>
+            <Link
+              className="underline text-gray-600 mb-1 block hover:no-underline hover:text-gray-900"
+              to={`/person/${persion.slug}`}
+            >
+              {persion.name}
+            </Link>
           </div>
         )
       })}

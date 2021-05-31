@@ -34,7 +34,9 @@ const Layout = ({ children }: Props) => (
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Container style={{}}>{children}</Container>
+        <Container className="min-h-screen" style={{}}>
+          {children}
+        </Container>
       </>
     )}
   />
